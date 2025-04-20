@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/background3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.nav{
+    width: 90%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+span{
+    color: #e4cd05;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.nav ul li a:hover{
+    color: #e4cd05;
+    transition: 0.5s;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.text .action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+.text .action button{
+    font-weight: bold;
+    border: 1px solid #e4cd05;
+    padding: 10px 30px;
+    margin: 0 10px;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 20px;
+    background-color: #e4cd05;
+}
+.text .action button:hover{
+    border: 1px solid #e4cd05;
+    background-color: transparent;
+    color: #e4cd05;
+    cursor: pointer;
+    transition: 0.9s;
+}
+.text .action .btn{
+    background-color: transparent;
+    color: #e4cd05;
+}
+.text .action .btn:hover{
+    border: 1px solid #e4cd05;
+    background-color: #e4cd05;
+    color: white;
+    cursor: pointer;
+    transition: 0.9s;
+}
